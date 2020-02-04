@@ -1,0 +1,49 @@
+
+h1 {
+  color: #FFFFFF;
+  background-color: #FF0000;
+}
+
+#specialid {
+  color: #FFFFFF;
+  background-color: #FF0000;
+}
+
+h3 {
+  color: #0000FF;
+  background-color: yellow;
+}
+
+h4 {
+  color: #00FF00;
+  background-color: black;
+}
+
+h5 {
+  color: #FF0000;
+}
+
+.specialp {
+  color: yellow;
+  background-color: #FF0000;
+}
+
+.spanstyle {
+  color: #FF0000;
+}
+
+#divexample {
+  color: #FF0000;
+}
+
+a:link {
+  color: #FF0000;
+}
+
+a:visited {
+ color: #00FF00;
+}
+
+a:hover {
+  color: yellow;
+}
