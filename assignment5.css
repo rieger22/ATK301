@@ -1,9 +1,84 @@
+body {
+font-family: impact;
+background-color: #FBD30D;
+background-image: url(images/Lakeith.jpg);
+background-repeat: no-repeat;
+width: 600px;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 10px 0 510px 0;
+  text-align: center;
+  line-height: 100px;
+}
+
+.spanred {
+  color: red;
+}
+
+.spanpink {
+  color: #F039F3;
+}
+
+.spanpurp {
+  color: #8809C2;
+}
+
+.spansmall {
+  font-size: 22px;
+}
+
+.spanhead {
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+
+#div1 {
+  font-size: 30px;
+  border-bottom: 4px solid #8809C2;
+  padding-bottom: 5px;
+  line-height: 35px;
+}
+
+#div2 {
+  border-bottom: 4px solid #8809C2;
+  padding-bottom: 10px;
+  font-size: 30px;
+  margin: 50px 0 0 0;
+}
+
+#star, #lake, #stan, #tessa, #thompson {
+  margin: 0 13px 0 0;
+}
+
+
+.top {
+  margin: 2px 0 0 0;
+}
 
 
 page {
   color: yellow;
 }
 
-a {
-  color: pink;
+footer {
+  border-top: 2px solid #8809C2
+  font-size: 15px;
+  text-align: center;
+}
+
+a:link {
+  color: #F655F6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#boots {
+  letter-spacing: 8px;
+
 }
