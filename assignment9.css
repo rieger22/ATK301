@@ -22,27 +22,68 @@ header {
   font-size: 24px;
   text-align: center;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
+.roundedbox {
+  padding: 10px;
+  border: 2px solid #purple;
+  background-color: #D3C0F8;
+  border-radius: 15px;
+}
+
+.roundedbox2 {
+  padding: 24px;
+  border: 0px solid #999;
+  background-color: #ccc;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.circle {
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border: 3px solid green;
+  background-color: red;
+  color: white;
+  border-radius: 500px;
+}
+
+.dropshadowbox {
+  padding: 5px;
+  background-color: #ccc;
+  box-shadow: 40px 5px 0px #666; /* x, y, blur, color */
+}
+
+.audio {
+  grid-column: span 12;
+  text-align: center;
+}
 
 #pic1 {
-  grid-column: span 4;
-  padding-left: 72px;
+  grid-column: span 12;
+  text-align: center;
+  margin: auto;
 }
 
 #pic2 {
-  grid-column: span 4;
-  padding-left: 72px;
+  grid-column: span 12;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
 }
 
 nav {
-  grid-column: span 3;
+  grid-column: span 12;
+  text-align: center;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  grid-column: span 12;
 }
 
 nav li a {
@@ -53,10 +94,12 @@ nav li a {
   font-weight: bold;
   padding: 24px;
   font-size: 36px;
+  text-shadow: 2px 2px 2px #000;
+  transition: background-color .5s, color .5s;
 }
 
 nav li {
-  margin-top: 10px;
+  display: inline-block;
 }
 
 a:link {
@@ -64,23 +107,45 @@ a:link {
 }
 a:hover {
   text-decoration: none;
+  background-color: purple;
+  color: yellow;
 }
 a:visited {
   text-decoration: none;
 }
 
-main {
-  grid-column: span 8;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-column-gap: 24px;
+#footer {
+  grid-column: span 12;
+  width: 720px;
+  margin: auto;
+  text-align: center;
+  display: block;
+  margin: 5px;
+}
 
+main {
+  grid-column: span 12;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  margin-top: 10px;
 }
 
 section {
   grid-column: span 8;
   background-color: #D3C0F2;
   text-align: center;
-  margin: 10px;
+  width: 720px;
+  margin: auto;
   padding: 10px;
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 13px;
+}
+
+footer {
+  grid-column: span 12;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5px;
+  font-size: 25px;
 }
