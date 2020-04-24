@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+
+<script src="https://code.jquery.com/jquery-1.9.1.js" integrity="sha256-e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+$('#slider').nivoSlider();
+});
+</script>
+
+<title>Fancy Example</title>
+</head>
+
+<body>
+<h1>Fancy Example</h1>
+
+	<div id="slider" class="nivoSlider">
+<img src="images/icecream.jpg" data-thumb="images/icecream_thumb.jpg" alt="" />
+<img src="images/patch.jpg" data-thumb="images/patch_thumb.jpg" alt="" title="This is an example of a patch" />
+<img src="images/water.jpg" data-thumb="images/water_thumb.jpg" alt="" data-transition="slideInLeft" />
+  </div>
+
+</body>
+</html>
