@@ -19,6 +19,7 @@ header {
   color: white;
   background-color: #B91AFF;
   font-family: Helvetica, Arial, sans-serif;
+  text-shadow: 2px 2px #000000;
   font-size: 24px;
   text-align: center;
   margin-bottom: 10px;
@@ -72,6 +73,19 @@ header {
   text-align: center;
   margin: auto;
   margin-top: 10px;
+}
+
+#pic3 {
+  grid-column: span 12;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+}
+
+#pic4 {
+  grid-column: span 8;
+  margin: auto;
+  width: 500px;
 }
 
 nav {
@@ -139,7 +153,7 @@ section {
   margin: auto;
   padding: 10px;
   font-family: 'Baloo Paaji 2', cursive;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 footer {
