@@ -7,7 +7,7 @@ body {
   width: 1200px;
   border: 1px solid black;
   padding: 24px;
-  background-color: #ffffff;
+  background-color: #000000;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
@@ -83,9 +83,16 @@ header {
 }
 
 #pic4 {
-  grid-column: span 8;
+  grid-column: span 12;
   margin: auto;
-  width: 500px;
+  width: 100%;
+}
+
+.pics img {
+  grid-column: span 12;
+  text-align: center;
+  margin: auto;
+  width: 100%;
 }
 
 nav {
