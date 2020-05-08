@@ -173,3 +173,11 @@ footer {
   margin-bottom: 5px;
   font-size: 25px;
 }
+h2 {
+  grid-column: span 8;
+  color: yellow;
+  text-align: center;
+  margin: 10px;
+  font-size: 50px;
+  display: run-in;
+}
